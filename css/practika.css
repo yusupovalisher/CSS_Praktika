@@ -1,0 +1,351 @@
+body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: white;
+    margin: 0;
+    padding: 5px;
+}
+
+.navbar-menyu {
+    margin: 5px;
+    padding: 0;
+    text-align: center;
+}
+
+.item {
+    display: inline-block;
+    padding: 20px 10px;
+    margin: 1px 1px;
+}
+
+.item:hover {
+    background-color: #f1f1f1;
+}
+
+.item a:hover {
+    color: black;
+}
+
+.rasm {
+    margin-right: 20px;
+    margin-bottom: -8px;
+    margin-left: 10px;
+}
+
+.item a {
+    color: black;
+    text-decoration: none;
+}
+
+.drop-menu {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    background-color: white;
+    z-index: 1;
+    display: none;
+}
+
+.item:hover .drop-menu {
+    display: block;
+}
+
+.item:after {
+    content: '';
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background-size: 90%;
+    background-position: center center;
+    position: absolute;
+    top: 40%;
+    right: 10px;
+}
+
+.item {
+    position: relative;
+    padding-right: 25px;
+}
+
+.drop-item {
+    margin: 0;
+    padding: 0;
+}
+
+.drop-item {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+
+.drop-item a {
+    text-decoration: none;
+    color: #808080;
+    padding: 20px 15px;
+    display: inline-block;
+    text-align: left;
+}
+
+.drop-menu-item:hover a {
+    background-color: royalblue;
+
+}
+
+.drop-item:hover {
+    display: block;
+}
+
+.ras1 {
+    width: 100%;
+    background-color: white;
+}
+
+.tv {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.tv0 {
+    width: 48%;
+    height: 300px;
+    background-color: #f1f1f1;
+    margin: 5px;
+}
+
+.tv1 {
+    float: right;
+    padding-right: 25px;
+}
+
+.loy1 {
+    text-align: center;
+    color: grey;
+    padding-top: 40px;
+}
+
+h1 {
+    color: black;
+}
+
+.tv00 {
+    width: 48%;
+    height: 300px;
+    background-color: #f1f1f1;
+    margin-top: -305px;
+    margin-right: 5px;
+    float: right;
+}
+
+.tv11 {
+    float: right;
+    padding-right: 25px;
+}
+
+.loy111 {
+    text-align: center;
+    color: grey;
+    width: 350px;
+
+}
+
+.rasm111 {
+    width: 150px;
+    height: 250px;
+}
+
+.sticky {
+    position: sticky;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 60px;
+}
+
+.li {
+    margin: 2px;
+}
+
+.div1 {
+    width: 100%;
+    height: 380px;
+    float: left;
+}
+
+.div {
+    display: inline-block;
+    float: left;
+    text-align: left;
+    margin: 30px;
+}
+
+.mil {
+    width: 250px;
+    height: 330px;
+    display: inline-block;
+}
+
+.Clear {
+    clear: both;
+}
+
+.yashl{
+    width: 100%;
+    height: 100px;
+    background-color: #68bb46;
+    display: inline-block;
+
+}
+.fd{
+    width: 80px;
+    height: 60px;
+    display: inline-block;
+}
+.ti{
+    width: 300px;
+    height: 60px;
+    margin: 25px;
+    margin-left: 120px;
+    float: left;
+    display: inline-block;
+    color: white;
+}
+.pi{
+    display: inline-block;
+    float: left;
+}
+.oo{
+    width: 400px;
+    height: 380px;
+    margin-left: 20px;
+}
+.clear{
+    clear: both;
+}
+.di{
+    margin: 50px 260px;
+}
+.l0{
+    margin-left: 280px;
+    margin-bottom: -40px;
+}
+.yashl1{
+    width: 100%;
+    height: 100px;
+    background-color: #68bb46;
+    float: left;
+
+}
+.t1{
+    color: white;
+    margin-left: 220px;
+    float: left;
+    line-height: 4px;
+}
+
+.fp{
+    color: white;
+    font-size: 20px;
+    margin: 50px;
+    margin-left: 620px;
+}
+.divv{
+    width: 400px;
+    float: right;
+    margin-right: 300px;
+    margin-top: -80px;
+}
+input{
+    width: 360px;
+    height: 25px;
+    border-radius: 8px;
+}
+.ki:hover {
+    width: 100px;
+    height: 25px;
+    border-radius: 4px;
+    background-color: #68bb46;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.ki{
+    text-align: center;
+    color: white;
+}
+.ki0{
+    float: right;
+    margin-right: 200px;
+    margin-top: -78px;
+    background-color: white;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+}
+.xh{
+    color: white;
+    font-size: 30px;
+}
+.o1{
+    width: 100%;
+    height: 590px;
+    background-color: #4d5059;
+
+}
+.o2{
+    margin-top: 50px;
+    margin-left: 250px;
+    float: left;
+}
+.clear {
+    clear: both;
+}
+.mn{
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    margin-left: 200px;
+    line-height: 2px;
+}
+.gc{
+    color: white;
+}
+.dikk{
+    width: 100%;
+    height: 70px;
+    background-color: #21242f;
+    margin-top: -18px;
+    display: inline-block;
+    color: white;
+}
+.ikk1{
+    display: inline-block;
+    margin-left: 400px;
+    color: white;
+}
+.ikk1:hover {
+    border-radius: 4px;
+    background-color: #21242f;
+}
+.q{
+    color: white;
+}
+.fki1{
+    width: 180px;
+    height: 80px;
+}
+.fki{
+    float: right;
+    margin-top: -80px;
+    margin-right: 120px;
+}
